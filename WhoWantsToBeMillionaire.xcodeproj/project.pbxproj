@@ -56,15 +56,31 @@
 		843DF183283D40AF006A4669 /* WhoWantsToBeMillionaire */ = {
 			isa = PBXGroup;
 			children = (
-				843DF184283D40AF006A4669 /* AppDelegate.swift */,
-				843DF186283D40AF006A4669 /* SceneDelegate.swift */,
+				843DF199283D40DE006A4669 /* Source */,
+				843DF198283D40C6006A4669 /* View */,
 				843DF188283D40AF006A4669 /* ViewController.swift */,
-				843DF18A283D40AF006A4669 /* Main.storyboard */,
-				843DF18D283D40AF006A4669 /* Assets.xcassets */,
-				843DF18F283D40AF006A4669 /* LaunchScreen.storyboard */,
-				843DF192283D40AF006A4669 /* Info.plist */,
 			);
 			path = WhoWantsToBeMillionaire;
+			sourceTree = "<group>";
+		};
+		843DF198283D40C6006A4669 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				843DF18A283D40AF006A4669 /* Main.storyboard */,
+				843DF18F283D40AF006A4669 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		843DF199283D40DE006A4669 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				843DF184283D40AF006A4669 /* AppDelegate.swift */,
+				843DF186283D40AF006A4669 /* SceneDelegate.swift */,
+				843DF18D283D40AF006A4669 /* Assets.xcassets */,
+				843DF192283D40AF006A4669 /* Info.plist */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
